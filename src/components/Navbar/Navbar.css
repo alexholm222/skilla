@@ -1,0 +1,135 @@
+.navbar {
+  grid-area: nav;
+  background-color: #091336;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navbar__logo {
+  width: 109px;
+  height: 28px;
+  background-image: url(../../images/logo.svg);
+  margin: 20px 0 32px 12px;
+}
+
+.navbar__menu {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__item {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navbar__item_active {
+  background-color: rgba(216, 228, 251, 0.32);
+}
+
+.navbar__item_active .navbar__icon svg path {
+  fill: #FFFFFF;
+  fill-opacity: 1;
+}
+
+.navbar__item_active .navbar__text {
+  color: #FFFFFF;
+}
+
+.navbar__item:hover {
+  background-color: rgba(216, 228, 251, 0.32);
+}
+
+.navbar__item:hover .navbar__icon svg path {
+  fill: #FFFFFF;
+  fill-opacity: 1;
+}
+
+.navbar__item:hover .navbar__text {
+  color: #FFFFFF;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__icon {
+  margin: 0 14px;
+}
+
+.navbar__icon svg path {
+  transition: all 0.2s;
+}
+
+.navbar__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s;
+}
+
+.navbar__point {
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #FFD500;
+  box-shadow: 0px 3px 8px rgba(237, 218, 1, 0.5);
+  margin-right: 22px;
+}
+
+.navbar__button {
+  width: 200px;
+  height: 52px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background-color: #005FF8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 20px 32px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.navbar__button:hover {
+  background-color: #0024CB;
+}
+
+.navbar__button:active {
+  background-color: #274BC8;
+}
+
+.navbar__text_button {
+  color: #FFFFFF;
+  margin: 0 17px 0 24px;
+}
+
+.navbar__icon_button {
+  width: 24px;
+  height: 24px;
+  margin: 0 20px 0 0;
+}
+
+.navbar__button_pay .navbar__text_button {
+  margin-left: 65px;
+}
+
+.navbar__button_pay {
+  margin-top: 0;
+}
