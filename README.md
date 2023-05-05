@@ -1,8 +1,8 @@
 # Фронтед тестовое задание для SKILLA
 
 **Описание проекта**
- * [Ссылка на сайт проекта](https://simple-hotelll.netlify.app/)
- * [GitHub проекта](https://github.com/alexholm222/simple-hotel)
+ * [Ссылка на сайт проекта](https://skillaa.netlify.app/)
+ * [GitHub проекта](https://github.com/alexholm222/skilla)
  * [Макет проекта]( https://www.figma.com/file/gvmxvc9SOiBIHmBxFkLlzy/Test-task-for-the-developer-(Copy)-(Copy)?node-id=0%3A1)
  * [API используемый в проекте]( https://api.skilla.ru/testapi)
 
